@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getAPIKey } from "../api/auth.js"
+import { getAPIKey } from "../api/auth.js";
 
 describe("getAPIKey", () => {
   it("returns the API key from a valid ApiKey authorization header", () => {
